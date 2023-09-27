@@ -3,8 +3,7 @@
 
 describe('BmiForm Component', () => {
   beforeEach(() => {
-    let BASE_URL = 'https://main.d27k9wqkcnjscm.amplifyapp.com/'
-    cy.visit(BASE_URL);
+    cy.visit('/');
   })
   it ('get', () => {
     cy.get('a:contains("View")')
